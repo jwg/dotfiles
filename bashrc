@@ -84,6 +84,7 @@ case $OS in
 
     # node.js
     export NODE_PATH="/usr/local/lib/node"
+    export PATH="$PATH:/usr/local/share/npm/bin"
 
     [ -f `brew --prefix`/etc/bash_completion ] &&
       . `brew --prefix`/etc/bash_completion
