@@ -82,9 +82,9 @@ case $OS in
     export COPYFILE_DISABLE='true'
     export LSCOLORS='gxfxcxdxbxegedabagacad'
 
-    # node.js
+    # node.js, ruby
     export NODE_PATH="/usr/local/lib/node"
-    export PATH="$PATH:/usr/local/share/npm/bin"
+    export PATH="$PATH:/usr/local/share/npm/bin:/usr/local/opt/ruby/bin"
 
     [ -f `brew --prefix`/etc/bash_completion ] &&
       . `brew --prefix`/etc/bash_completion
