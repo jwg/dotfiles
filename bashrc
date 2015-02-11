@@ -85,6 +85,8 @@ case $OS in
     # node.js, ruby
     export NODE_PATH="/usr/local/lib/node"
     export PATH="$PATH:/usr/local/share/npm/bin:/usr/local/opt/ruby/bin"
+    export NVM_DIR=~/.nvm
+    source $(brew --prefix nvm)/nvm.sh
 
     [ -f `brew --prefix`/etc/bash_completion ] &&
       . `brew --prefix`/etc/bash_completion
