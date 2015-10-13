@@ -83,10 +83,11 @@ case $OS in
     export LSCOLORS='gxfxcxdxbxegedabagacad'
 
     # node.js, ruby
-    export PATH="$PATH:/usr/local/share/npm/bin:/usr/local/opt/ruby/bin"
+    export PATH="$PATH:/usr/local/share/npm/bin"
     export NVM_DIR=~/.nvm
     source $(brew --prefix nvm)/nvm.sh
     nvm use node
+    if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
     [ -f `brew --prefix`/etc/bash_completion ] &&
       . `brew --prefix`/etc/bash_completion
