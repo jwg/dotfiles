@@ -83,7 +83,6 @@ case $OS in
     export LSCOLORS='gxfxcxdxbxegedabagacad'
 
     # node.js, ruby
-    export PATH="$PATH:/usr/local/share/npm/bin"
     export NVM_DIR=~/.nvm
     source $(brew --prefix nvm)/nvm.sh
     nvm use node
