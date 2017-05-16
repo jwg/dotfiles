@@ -1,0 +1,3 @@
+### Hey hey!
+
+`./install.sh`
