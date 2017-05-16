@@ -85,7 +85,7 @@ case $OS in
     # node.js, ruby
     export NVM_DIR=~/.nvm
     source $(brew --prefix nvm)/nvm.sh
-    nvm use node
+    nvm use --delete-prefix node
     if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
     [ -f `brew --prefix`/etc/bash_completion ] &&
