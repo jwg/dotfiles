@@ -138,7 +138,7 @@ export HISTCONTROL="ignorespace:erasedups"
 export HISTIGNORE="&:l[ls]:[bf]g:exit"
 
 # grep colors
-export GREP_OPTIONS='--color=auto'
+alias grep="grep --color=auto"
 
 # git
 export GIT_EDITOR=vim
