@@ -1,4 +1,4 @@
-### Hey hey!
+### Old dotfiles
 
 Dotfiles. Mostly not updated.
 
