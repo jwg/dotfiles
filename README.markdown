@@ -1,3 +1,3 @@
-### Hey hey!
+### Old dotfiles
 
 `./install.sh`
