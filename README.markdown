@@ -1,5 +1,5 @@
-### Old dotfiles
+### Dotfiles
 
-Dotfiles. Mostly not updated.
+Dotfiles. Mostly not up to date.
 
 `./install.sh`
