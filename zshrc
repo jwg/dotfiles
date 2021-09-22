@@ -1,3 +1,15 @@
+# M1 homebrew path
+#path+=(/opt/homebrew/bin)
+path+=(~/bin)
+export PATH="/opt/homebrew/bin:$PATH"
+
+export GPG_TTY=$(tty)
+
+# zsh-completion
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+fi
+
 # The following lines were added by compinstall
 
 zstyle ':completion:*' completer _complete _ignored
@@ -22,4 +34,3 @@ RPROMPT=\$vcs_info_msg_0_
 # PROMPT=\$vcs_info_msg_0_'%# '
 zstyle ':vcs_info:git:*' formats '%b'
 
-fpath=(/usr/local/share/zsh-completions $fpath)
