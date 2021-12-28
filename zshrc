@@ -1,7 +1,7 @@
 # M1 homebrew path
 #path+=(/opt/homebrew/bin)
 path+=(~/bin)
-export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 export GPG_TTY=$(tty)
 export CLICOLOR=1
